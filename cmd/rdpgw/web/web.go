@@ -219,7 +219,7 @@ func (h *Handler) HandleDownload(w http.ResponseWriter, r *http.Request) {
 	d.Settings.GatewayCredentialsSource = rdp.SourceCookie
 	d.Settings.GatewayAccessToken = token
 	d.Settings.GatewayCredentialMethod = 1
-	d.Settings.GatewayUsageMethod = 1
+	d.Settings.GatewayUsageMethod = 4
 
 	http.ServeContent(w, r, fn, time.Now(), strings.NewReader(d.String()))
 }
