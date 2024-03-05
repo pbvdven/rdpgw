@@ -3,8 +3,8 @@ package protocol
 import (
 	"context"
 	"errors"
-	"github.com/bolkedebruin/rdpgw/cmd/rdpgw/identity"
-	"github.com/bolkedebruin/rdpgw/cmd/rdpgw/transport"
+	"github.com/pbvdven/rdpgw/cmd/rdpgw/identity"
+	"github.com/pbvdven/rdpgw/cmd/rdpgw/transport"
 	"github.com/google/uuid"
 	"github.com/gorilla/websocket"
 	"github.com/patrickmn/go-cache"
