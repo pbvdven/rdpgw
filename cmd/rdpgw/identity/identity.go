@@ -7,7 +7,7 @@ import (
 )
 
 const (
-	CTXKey = "github.com/bolkedebruin/rdpgw/common/identity"
+	CTXKey = "github.com/pbvdven/rdpgw/common/identity"
 
 	AttrRemoteAddr  = "remoteAddr"
 	AttrClientIp    = "clientIp"
