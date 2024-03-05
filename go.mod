@@ -1,4 +1,4 @@
-module github.com/bolkedebruin/rdpgw
+module github.com/pbvdven/rdpgw
 
 go 1.20
 
