@@ -18,7 +18,7 @@ RUN mkdir -p /opt/rdpgw && cd /opt/rdpgw && \
 
 # build rdpgw and set rights
 ARG CACHEBUST
-RUN git clone https://github.com/bolkedebruin/rdpgw.git /app && \
+RUN git clone https://github.com/pbvdven/rdpgw.git /app && \
     cd /app && \
     go mod tidy -compat=1.19 && \
     CGO_ENABLED=0 GOOS=linux go build -trimpath -tags '' -ldflags '' -o '/opt/rdpgw/rdpgw' ./cmd/rdpgw && \
