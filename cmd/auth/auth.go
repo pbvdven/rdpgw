@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"errors"
-	"github.com/bolkedebruin/rdpgw/shared/auth"
+	"github.com/pbvdven/rdpgw/shared/auth"
 	"github.com/msteinert/pam"
 	"github.com/thought-machine/go-flags"
 	"google.golang.org/grpc"
