@@ -1,8 +1,8 @@
 package protocol
 
 import (
-	"github.com/bolkedebruin/rdpgw/cmd/rdpgw/identity"
-	"github.com/bolkedebruin/rdpgw/cmd/rdpgw/transport"
+	"github.com/pbvdven/rdpgw/cmd/rdpgw/identity"
+	"github.com/pbvdven/rdpgw/cmd/rdpgw/transport"
 	"net"
 	"time"
 )
