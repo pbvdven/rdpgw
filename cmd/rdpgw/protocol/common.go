@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/binary"
 	"errors"
-	"github.com/bolkedebruin/rdpgw/cmd/rdpgw/transport"
+	"github.com/pbvdven/rdpgw/cmd/rdpgw/transport"
 	"io"
 	"log"
 	"net"
