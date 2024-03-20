@@ -86,7 +86,7 @@ type RdpSettings struct {
 	RemoteAppExpandWorkingDir             bool   `rdp:"remoteapplicationexpandworkingdir" default:"true"`
 	RemoteApplicationFile                 string `rdp:"remoteapplicationfile" default:"true"`
 	RemoteApplicationIcon                 string `rdp:"remoteapplicationicon"`
-	RemoteApplicationMode                 bool   `rdp:"remoteapplicationmode" default:"true"`
+	RemoteApplicationMode                 bool   `rdp:"remoteapplicationmode"`
 	RemoteApplicationName                 string `rdp:"remoteapplicationname"`
 	RemoteApplicationProgram              string `rdp:"remoteapplicationprogram"`
 }
