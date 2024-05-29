@@ -148,7 +148,7 @@ func (h *Handler) HandleDownload(w http.ResponseWriter, r *http.Request) {
 
 	// split the username into user and domain
 	var user = id.UserName()
-	var domain = ""
+	var domain = "MORSSINK"
 	if opts.SplitUserDomain {
 		creds := strings.SplitN(id.UserName(), "@", 2)
 		user = creds[0]
